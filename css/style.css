@@ -35,6 +35,41 @@
 #home2 > li:first-child:hover {
    opacity: 1;
 }
+/* Navigation Uper Start Services*/
+#Services1 {
+   position: relative;
+   /* z-index: 9999999999999; */
+}
+#Services2 {
+   position: absolute;
+   z-index: 9999999999999;
+}
+#Services2:hover {
+   opacity: .8;
+}
+#Services2 > li:first-child:hover {
+   opacity: 1;
+}
+/* Navigation Uper End Services*/
+
+
+/* Navigation Uper Start Services*/
+#Products1 {
+   position: relative;
+   /* z-index: 9999999999999; */
+}
+#Products2 {
+   position: absolute;
+   z-index: 9999999999999;
+}
+#Products2:hover {
+   opacity: .8;
+}
+#Products2 > li:first-child:hover {
+   opacity: 1;
+}
+/* Navigation Uper End Services*/
+
 .navigation > ul {
     display: flex;
     margin-right: 5rem; 
@@ -238,10 +273,16 @@
    background: #0416687a;
 }
 
+.smart-area-titel {
+   position: relative;
+   width: 23rem;
+   margin: auto;
+}
+
+
 .smart-area-titel > h2 {
    font-size: 3rem;
    text-align: center;
-   position: relative;
    padding: 1rem 0rem;
 }
 
@@ -249,7 +290,7 @@
    content:'';
    position: absolute;
    top:4.5rem;
-   left:47.5rem;
+   left:6.5rem;
    width: 10rem;
    height: .3rem;
    background-color: var(--bg-color)
